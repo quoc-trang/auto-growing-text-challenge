@@ -1,0 +1,2 @@
+- The textarea auto adjusts it's height when typed into
+- The textarea auto adjusts it's height when the modelValue changes

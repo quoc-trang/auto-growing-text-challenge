@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+  @apply h-screen flex items-center justify-center gap-3;
+}
+
+textarea {
+  @apply outline outline-gray-200  focus-visible:outline-2 focus-visible:outline-blue-300 rounded block w-full p-3;
+}
+
+button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded block mt-5 w-full;
+}
